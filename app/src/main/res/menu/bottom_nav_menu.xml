@@ -4,7 +4,7 @@
         android:icon="@android:drawable/ic_menu_view"
         android:title="Home" />
     <item
-        android:id="@+id/nav_hololive"
+        android:id="@+id/nav_dashboard"
         android:icon="@android:drawable/ic_menu_manage"
         android:title="RecycleView1" />
     <item

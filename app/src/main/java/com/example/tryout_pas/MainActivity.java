@@ -1,16 +1,18 @@
 package com.example.tryout_pas;
 
 import android.os.Bundle;
+
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.fragment.app.Fragment;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.example.tryout_pas.HoloLiveFragment;
-import com.example.tryout_pas.HomeFragment;
-import com.example.tryout_pas.RecycleView2Fragment;
-import com.example.tryout_pas.R;
 
 public class MainActivity extends AppCompatActivity {
+
     BottomNavigationView bottomNavigationView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
 
             if (itemId == R.id.nav_home) {
                 fragment = new HomeFragment();
-            } else if (itemId == R.id.nav_hololive) {
-                fragment = new HoloLiveFragment();
+            } else if (itemId == R.id.nav_dashboard) {
+                fragment = new DashboardFragment();
             } else if (itemId == R.id.nav_notifications) {
-                fragment = new RecycleView2Fragment();
+                fragment = new NotificationsFragment();
             }
 
             if (fragment != null) {
