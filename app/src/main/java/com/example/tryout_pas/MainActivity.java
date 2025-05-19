@@ -4,10 +4,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.example.tryout_pas.HoloLiveFragment;
-import com.example.tryout_pas.HomeFragment;
-import com.example.tryout_pas.RecycleView2Fragment;
-import com.example.tryout_pas.R;
+import com.example.tryout_pas.SportdbLaLigaFragment;
 
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
@@ -28,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
 
             if (itemId == R.id.nav_home) {
                 fragment = new HomeFragment();
-            } else if (itemId == R.id.nav_hololive) {
-                fragment = new HoloLiveFragment();
-            } else if (itemId == R.id.nav_notifications) {
-                fragment = new RecycleView2Fragment();
+            } else if (itemId == R.id.nav_ligainggris) {
+                fragment = new SportdbEPLFragment();
+            } else if (itemId == R.id.nav_ligaspanyol) {
+                fragment = new SportdbLaLigaFragment();
             }
 
             if (fragment != null) {

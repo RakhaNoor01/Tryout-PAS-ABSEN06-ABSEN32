@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/fragment_hololive_root"
+    android:id="@+id/fragment_laliga_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -10,10 +10,10 @@
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:queryHint="Cari nama atau generasi..." />
+        android:queryHint="Cari nama tim atau stadion..." />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvHololive"
+        android:id="@+id/rvLaLiga"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingTop="8dp" />
