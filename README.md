@@ -6,3 +6,5 @@
 ![](https://media.tenor.com/W3LLABGg6nMAAAAi/miggi-star-with-bismillah.gif)
 ![](https://media1.tenor.com/m/45YKzA-yEvMAAAAC/java-miggi-keybooyz.gif)
 ![](https://media1.tenor.com/m/fiq6HjwDKhMAAAAd/sharko-bismillah.gif)
+![](https://media1.tenor.com/m/WkzkxvWOhsAAAAAC/semangat-bismillah.gif)
+![](https://media1.tenor.com/m/NpsWRWnB848AAAAd/mac-os-x-childhood.gif)
