@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="Home Fragment"
+        android:text="Welcome to Football"
         android:textSize="24sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

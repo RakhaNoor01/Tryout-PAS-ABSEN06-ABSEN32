@@ -14,7 +14,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="RecycleView1"
+        android:text="Football Clubs"
         android:layout_marginTop="100px"
         android:layout_marginBottom="50px"
         android:gravity="center"
